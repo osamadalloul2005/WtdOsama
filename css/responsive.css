@@ -1,0 +1,194 @@
+@media screen and (max-width:768px){
+  .warpper {
+
+    grid-template-areas:
+      "header header header header header"
+      "features features features features features"
+      ". services services services ."
+      "action action action action action"
+      ". price price price ."
+      ". about about about ."
+      "testimonials testimonials testimonials testimonials testimonials"
+      "footer footer footer footer footer"
+    ;
+    text-align: center;
+    margin: auto;
+  }
+
+  .header-content {
+    max-width:600px;
+  }
+
+  .header-title h1 {
+    font-size: 3rem;
+  }
+
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
+
+  .services-content {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 500px;
+
+  }
+
+  .action-title {
+    max-width: 400px;
+  }
+
+  .price-content {
+    display: grid;
+    grid-template-columns: repeat(1, 500px);
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonials-content {
+    max-width: 400px;
+  }
+
+  footer .copyright span {
+
+    font-size: 1.2rem;
+
+  }
+}
+@media screen and (max-width:576px){
+  .warpper {
+
+    grid-template-areas:
+      "header header header header header"
+      "features features features features features"
+      ". services services services ."
+      "action action action action action"
+      ". price price price ."
+      ". about about about ."
+      "testimonials testimonials testimonials testimonials testimonials"
+      "footer footer footer footer footer"
+    ;
+    text-align: center;
+    margin: auto;
+  }
+
+  .header-content {
+    max-width: 400px;
+  }
+
+  .header-title h1 {
+    font-size: 3rem;
+  }
+
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+
+  .services-content {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 400px;
+
+  }
+
+  .action-title {
+    max-width: 400px;
+  }
+
+  .price-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .testimonials-content {
+    max-width: 400px;
+  }
+
+  footer .copyright span {
+
+    font-size: 1.2rem;
+
+  }
+}
+
+
+
+@media screen and (max-width:480px) {
+  .warpper {
+
+    grid-template-areas:
+      "header header header header header"
+      "features features features features features"
+      ". services services services ."
+      "action action action action action"
+      ". price price price ."
+      ". about about about ."
+      "testimonials testimonials testimonials testimonials testimonials"
+      "footer footer footer footer footer"
+    ;
+    text-align: center;
+    margin: auto;
+  }
+
+  .header-content {
+    max-width: 300px;
+  }
+
+  .header-title h1 {
+    font-size: 3rem;
+  }
+
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+  }
+
+  .services-content {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 300px;
+
+  }
+
+  .action-title {
+    max-width: 300px;
+  }
+
+  .price-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-content {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .testimonials-content {
+    max-width: 300px;
+  }
+
+  footer .copyright span {
+
+    font-size: 1.2rem;
+
+  }
+}
